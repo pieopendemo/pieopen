@@ -3,6 +3,8 @@
 1、下载测试项目
 
 ```
+//环境说明 Node 版本最好大于 6.0.0 (4.5版本可能需要安装依赖)
+
 git clone https://github.com/pieopendemo/pieopen.git
 
 cd pieopen
