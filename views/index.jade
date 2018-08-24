@@ -1,0 +1,56 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  button#btn 登录
+
+  p.pinfo
+
+  img#qr
+
+  p.pinfo
+
+  button#get 获取用户信息
+  p#userinfo
+
+  p.pinfo
+
+  button#bitpie_login 比特派 APP 唤起
+
+  p.pinfo
+
+  input#coin(placeholder="输入coin_code")
+  input#amount(placeholder="输入amount")
+
+  button#create_order 获取支付二维码
+
+  p.pinfo
+  p 以下是支付二维码
+  img#pay_qr
+  p.pinfo
+  p#order_info
+  p.pinfo
+  p 点击查询订单信息
+  p.pinfo
+  button#order_search 订单查询
+  p#orderinfo
+  p.pinfo
+  button#transfer 给用户转账
+  p#transferinfo
+  p.pinfo
+  button#openbitpietransfer 唤起bitpie支付
+  p.pinfo
+  button#transferquery 转账查询
+  p#transferqueryinfo
+
+
+
+
+
+
+
+
+
+
